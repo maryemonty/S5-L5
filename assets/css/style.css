@@ -199,18 +199,6 @@ aside{
     margin-bottom: 8px;
 }
 
-.data{
-    display: flex;
-    color: rgba(117, 117, 117, 1);
-    font-size: 13px;
-    line-height: 20px;
-    gap: 0.2rem;
-}
-
-.punto{
-    line-height: 1
-}
-
 .paragrafo span, #paragrafo h3 span{
     font-size: small;
     text-transform: none;
@@ -239,8 +227,15 @@ article{
 
 .post{
     display: flex;
-    width: 868px;
+}
 
+.art{
+    position: relative;
+}
+
+.imgPost{
+    width: 200px;
+    height: 134px;
 }
 
 .post h3{
@@ -250,18 +245,11 @@ article{
     line-height: 28px;
 }
 
-.post p{
+.post h2{
     color: rgba(117, 117, 117, 1);
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
-}
-
-.imgPost{
-    width: 200px;
-    height: 134px;
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 .btn{
@@ -285,4 +273,21 @@ article{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.bookmark{
+    position: absolute;
+    right: 0;
+}
+
+.data{
+    display: flex;
+    color: rgba(117, 117, 117, 1);
+    font-size: 13px;
+    line-height: 20px;
+    gap: 0.2rem;
+}
+
+.punto{
+    line-height: 1
 }
