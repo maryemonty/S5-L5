@@ -230,6 +230,7 @@ article{
 }
 
 .article{
+    position: relative;
     margin-top: 56px;
     margin-left: 150px;
     margin-right: 150px;
@@ -244,6 +245,9 @@ article{
 }
 
 .imgPost{
+    position: absolute;
+    top: 0;
+    right: 400px;
     width: 200px;
     height: 134px;
 }
@@ -300,4 +304,12 @@ article{
 
 .punto{
     line-height: 1
+}
+
+.art h3{
+    margin-bottom: 1rem;
+}
+
+.art h2{
+    margin-bottom: 1rem;
 }
