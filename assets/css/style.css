@@ -195,6 +195,7 @@ aside{
 .paragrafo{
     display: flex;
     text-transform: capitalize;
+    margin-top: 2rem;
 }
 .paragrafo p{
     margin-left: 8px;
@@ -245,12 +246,12 @@ article{
 }
 
 .imgPost{
-    position: absolute;
     top: 0;
     right: 400px;
     width: 200px;
     height: 134px;
 }
+
 
 .post h3{
     font-size: 22px;
@@ -307,9 +308,10 @@ article{
 }
 
 .art h3{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .art h2{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
+
