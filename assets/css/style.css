@@ -246,8 +246,7 @@ article{
 }
 
 .imgPost{
-    top: 0;
-    right: 400px;
+    margin-left: 30px;
     width: 200px;
     height: 134px;
 }
@@ -292,9 +291,13 @@ article{
 
 .bookmark{
     position: absolute;
-    right: 0;
+    right: -250px;
 }
 
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
 .data{
     display: flex;
     color: rgba(117, 117, 117, 1);
