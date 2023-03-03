@@ -239,6 +239,7 @@ article{
 
 .post{
     display: flex;
+    max-width: 700px;
 }
 
 .art{
@@ -249,6 +250,7 @@ article{
     margin-left: 30px;
     width: 200px;
     height: 134px;
+    cursor: pointer;
 }
 
 
@@ -291,7 +293,8 @@ article{
 
 .bookmark{
     position: absolute;
-    right: -250px;
+    right: 0;
+    cursor: pointer;
 }
 
 .bottom{
@@ -310,11 +313,10 @@ article{
     line-height: 1
 }
 
-.art h3{
-    margin-bottom: 0.5rem;
-}
-
 .art h2{
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem
 }
 
+.art span{
+    text-transform: none;
+}
