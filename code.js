@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ANIMAZIONE
 
-let svg = document.querySelectorAll('svg path')
+let svg = document.querySelectorAll('svg g g g')
 let animation = setInterval(() => {
     let random = Math.floor(Math.random() * svg.length)
     let mAnimation = svg[random]
@@ -35,4 +35,5 @@ let animation = setInterval(() => {
     else{
         mAnimation.style.opacity = 0
     }
-}, 10)
+}, 1)
+
