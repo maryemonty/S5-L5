@@ -24,16 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ANIMAZIONE
 
-let svg = document.querySelectorAll('svg g g g')
+let svg = document.querySelectorAll('svg path')
 let animation = setInterval(() => {
     let random = Math.floor(Math.random() * svg.length)
     let mAnimation = svg[random]
     console.log(mAnimation.style.opacity);
-    if(mAnimation.style.opacity || mAnimation.style.opacity === "0"){
+    if(mAnimation.style.opacity && mAnimation.style.opacity === "0"){
         mAnimation.style.opacity = 1
     }
     else{
         mAnimation.style.opacity = 0
     }
-}, 1)
+}, 10)
 
