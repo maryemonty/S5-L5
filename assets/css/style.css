@@ -182,8 +182,8 @@ aside{
     text-transform: capitalize;
     font-weight: bold;
     color: rgba(41, 41, 41, 1);
-    line-height: 20px;
     margin-bottom: 8px;
+    min-height: 32px;
 }
 
 .two span{
@@ -195,7 +195,7 @@ aside{
 .paragrafo{
     display: flex;
     text-transform: capitalize;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .paragrafo p{
     margin-left: 8px;
