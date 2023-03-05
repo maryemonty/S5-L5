@@ -380,3 +380,8 @@ article{
     margin-bottom: 16px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.sticky{
+    position: sticky;
+    top: 107px;
+}
