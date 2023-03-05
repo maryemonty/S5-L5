@@ -291,9 +291,13 @@ article{
     flex-direction: column;
 }
 
+.cont{
+    position: relative;
+}
 .bookmark{
     position: absolute;
     right: 0;
+    bottom: 0;
     cursor: pointer;
 }
 
@@ -314,7 +318,8 @@ article{
 }
 
 .art h2{
-    margin-top: 1.5rem
+    margin-top: 1.5rem;
+    margin-bottom: 2rem
 }
 
 .art span{
