@@ -61,7 +61,7 @@ button{
 .green{
     transition: 1s;
     background-color: #538724;
-    border-color: #538724;
+    border: 2px solid #538724;
 }
 /* MAIN */
 
@@ -131,7 +131,6 @@ aside{
 
 .section{
     display: flex;
-    justify-content: center;
     height: 348.2px;
     width: 100%;
 }
@@ -324,4 +323,56 @@ article{
 
 .art span{
     text-transform: none;
+}
+
+.flexButton a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.sep{
+    border-top: 1px solid rgba(230, 230, 230, 1);
+    margin: 24px 0;
+}
+.ara{
+    margin-top: 24px;
+}
+
+.altro{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.flexButton{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.flexButton button{
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(117, 117, 117, 1);
+    border: 1px solid rgba(230, 230, 230, 1);
+    background-color: #fff;
+    padding: 6px 16px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.altro h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
 }

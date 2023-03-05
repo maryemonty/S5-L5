@@ -35,5 +35,5 @@ let animation = setInterval(() => {
     else{
         mAnimation.style.opacity = 0
     }
-}, 10)
+}, 100)
 
